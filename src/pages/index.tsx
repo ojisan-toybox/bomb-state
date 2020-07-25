@@ -41,9 +41,6 @@ export default () => {
             background-color: ${isOpen && "rgba(0, 0, 0, 0.3)"};
           }
           .modalContent {
-            transition: opacity 0.5s, visibility 0.5s;
-            opacity: ${!isOpen ? 0 : 1};
-            visibility: ${!isOpen ? "hidden" : "initial"};
             position: fixed;
             top: 5vh;
             left: 5vw;
